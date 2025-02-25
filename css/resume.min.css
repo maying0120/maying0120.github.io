@@ -20,10 +20,10 @@ h2{font-size:3.5rem}
 .subheading
 {text-transform:uppercase;font-weight:500;font-family:'Saira Extra Condensed',serif;font-size:1.35rem}
 .list-social-icons a{color:#495057}
-.list-social-icons a:hover{color:#c4c1e0}
+.list-social-icons a:hover{color:#6a60da}
 .list-social-icons a .fa-lg{font-size:1.75rem}
 .list-icons{font-size:3rem}
-.list-icons .list-inline-item i:hover{color:#c4c1e0}
+.list-icons .list-inline-item i:hover{color:#6a60da}
 #sideNav .navbar-nav .nav-item .nav-link
 {font-weight:600;text-transform:uppercase}
 @media (min-width:992px)
@@ -40,6 +40,6 @@ section.resume-section .resume-item .resume-date{min-width:none}
 section.resume-section .resume-item .resume-date{min-width:18rem}}
 @media (min-width:992px)
 {section.resume-section{padding-top:3rem!important;padding-bottom:3rem!important}}
-.bg-primary{background-color:#c4c1e0!important}
-.text-primary{color:#6158b0!important}a{color:#c4c1e0}
+.bg-primary{background-color:#6a60da!important}
+.text-primary{color:#6158b0!important}a{color:#6a60da}
 a:active,a:focus,a:hover{color:#824027}
