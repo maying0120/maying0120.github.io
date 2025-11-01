@@ -1,0 +1,142 @@
+/* === Publications Section — fixed columns & comfortable spacing === */
+#Publications {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+/* 默认 1 列（手机端） */
+#Publications .pub-list {
+  display: grid;
+  grid-template-columns: 1fr;                /* 手机一列 */
+  gap: 2.25rem;                              /* 卡片间距 */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* 13-14 寸笔记本（>=992px 且 <1600px）显示 2 列 */
+@media (min-width: 992px) {
+  #Publications .pub-list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;                             /* 更宽屏幕更大间距 */
+  }
+}
+
+/* 超大屏（>=1600px，如 21 寸及以上）显示 3 列 */
+@media (min-width: 1600px) {
+  #Publications .pub-list {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.75rem;
+  }
+}
+
+/* 单个 publication 卡片 */
+#Publications .pub-item {
+  background: #fff;
+  border-radius: 1.1rem;
+  border: 1px solid #e7e7ea;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: box-shadow .25s ease;
+}
+
+/* Hover 轻微提示（无上浮动画） */
+#Publications .pub-item:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+
+/* 封面图：更高、更宽松的比例 */
+#Publications .pub-thumb {
+  display: block;
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-bottom: 1px solid #eee;
+  background: #f8f9fa;
+}
+
+/* 笔记本屏幕封面稍高 */
+@media (min-width: 992px) {
+  #Publications .pub-thumb {
+    height: 260px;
+  }
+}
+
+/* 大屏封面更高，比例更沉稳 */
+@media (min-width: 1600px) {
+  #Publications .pub-thumb {
+    height: 280px;
+  }
+}
+
+/* 卡片内容区域：增加内边距与留白 */
+#Publications .pub-content {
+  padding: 1.5rem 2rem;                      /* 左右留白加大 */
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+/* 作者行（首字母 + 姓） */
+#Publications .pub-meta {
+  font-size: 0.96rem;
+  /* padding-left: 0.1rem; */
+  color: #6c757d;
+  line-height: 1.45rem;
+}
+
+/* 标题：加粗、清晰 */
+#Publications .pub-title {
+  font-weight: 700;
+  font-size: 1.08rem;
+  color: #343a40;
+  line-height: 1.55rem;
+  margin-top: .15rem;
+  /* padding-left: 0.1rem; */
+}
+
+/* 期刊与会议信息 */
+#Publications .pub-venue {
+  font-size: 0.96rem;
+  color: #565c63;
+  margin-bottom: .25rem;
+  /* padding-left: 0.1rem; */
+}
+
+/* PDF / 项目链接 */
+#Publications .pub-links {
+  margin-top: .2rem;
+  padding-left: 0.1rem;
+}
+
+#Publications .pub-links a {
+  color: #6a60da;
+  margin-right: 1rem;
+  text-decoration: none;
+  padding: .15rem .1rem;
+  transition: color .2s ease;
+}
+
+#Publications .pub-links a:hover {
+  color: #4c3fc3;
+  text-decoration: underline;
+}
+
+/* venue 小徽章 */
+#Publications .badge-venue {
+  display: inline-block;
+  background: rgba(106,96,218,.1);
+  color: #6a60da;
+  font-size: 0.86rem;
+  border-radius: .4rem;
+  padding: .12rem .5rem;
+  margin-left: -0.3rem;
+}
+
+/* 调整标题分组间距 */
+#Publications h3 {
+  margin-top: 1.75rem;
+  margin-bottom: 1rem;
+}
