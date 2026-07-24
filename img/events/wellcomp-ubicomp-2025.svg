@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Computing for Well-being UbiComp ISWC 2025 event photo placeholder</title>
+  <desc id="desc">A placeholder for a future event photo.</desc>
+  <rect width="1200" height="800" fill="#eef8f7"/>
+  <rect x="70" y="70" width="1060" height="660" rx="28" fill="#ffffff" stroke="#bfe4df" stroke-width="6"/>
+  <path d="M353 317c0-75 61-136 136-136 43 0 84 21 109 55 25-34 66-55 109-55 75 0 136 61 136 136 0 158-245 269-245 269S353 475 353 317z" fill="#3f8f8c" opacity=".2"/>
+  <path d="M315 525h165l49-86 87 150 66-113h203" fill="none" stroke="#6a60da" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="600" y="660" text-anchor="middle" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#343a40">Add Well-being Event Photo</text>
+</svg>

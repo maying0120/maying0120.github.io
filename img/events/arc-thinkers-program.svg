@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">ARC Kathleen Fitzpatrick PhD Thinkers Program photo placeholder</title>
+  <desc id="desc">A placeholder for a future event photo.</desc>
+  <rect width="1200" height="800" fill="#f0f7ff"/>
+  <rect x="70" y="70" width="1060" height="660" rx="28" fill="#ffffff" stroke="#c7ddff" stroke-width="6"/>
+  <path d="M380 520c0-122 99-221 221-221s221 99 221 221" fill="none" stroke="#6a60da" stroke-width="26" stroke-linecap="round"/>
+  <path d="M520 280c20-70 140-70 160 0" fill="none" stroke="#3f8f8c" stroke-width="24" stroke-linecap="round"/>
+  <path d="M500 575h200" stroke="#d06b5c" stroke-width="24" stroke-linecap="round"/>
+  <text x="600" y="655" text-anchor="middle" font-family="Arial, sans-serif" font-size="40" font-weight="700" fill="#343a40">Add ARC Thinkers Program Photo</text>
+</svg>

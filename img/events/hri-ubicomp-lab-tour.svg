@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">HRI and UbiComp lab tour photo placeholder</title>
+  <desc id="desc">A placeholder for a future event photo.</desc>
+  <rect width="1200" height="800" fill="#f6f8fa"/>
+  <rect x="70" y="70" width="1060" height="660" rx="28" fill="#ffffff" stroke="#d7dde4" stroke-width="6"/>
+  <rect x="330" y="260" width="540" height="280" rx="26" fill="#6a60da" opacity=".14"/>
+  <path d="M405 520V330h390v190" fill="none" stroke="#6a60da" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="480" cy="398" r="38" fill="#3f8f8c" opacity=".7"/>
+  <circle cx="720" cy="398" r="38" fill="#d06b5c" opacity=".75"/>
+  <path d="M510 490h180" stroke="#343a40" stroke-width="18" stroke-linecap="round" opacity=".55"/>
+  <text x="600" y="655" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#343a40">Add Lab Tour Photo</text>
+</svg>

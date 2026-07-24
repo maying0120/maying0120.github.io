@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Women in Computing workshop photo placeholder</title>
+  <desc id="desc">A placeholder for a future event photo.</desc>
+  <rect width="1200" height="800" fill="#fff7ed"/>
+  <rect x="70" y="70" width="1060" height="660" rx="28" fill="#ffffff" stroke="#ffd6a5" stroke-width="6"/>
+  <path d="M330 480c115-135 205-135 320 0s205 135 320 0" fill="none" stroke="#d06b5c" stroke-width="24" stroke-linecap="round"/>
+  <path d="M270 350h660" stroke="#6a60da" stroke-width="24" stroke-linecap="round" opacity=".45"/>
+  <circle cx="360" cy="350" r="62" fill="#6a60da" opacity=".18"/>
+  <circle cx="600" cy="350" r="62" fill="#3f8f8c" opacity=".2"/>
+  <circle cx="840" cy="350" r="62" fill="#d06b5c" opacity=".18"/>
+  <text x="600" y="645" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#343a40">Add Women* in Computing Photo</text>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">N2Women UbiComp ISWC 2025 event photo placeholder</title>
+  <desc id="desc">A placeholder for a future event photo.</desc>
+  <rect width="1200" height="800" fill="#f5f3ff"/>
+  <rect x="70" y="70" width="1060" height="660" rx="28" fill="#ffffff" stroke="#d8d3ff" stroke-width="6"/>
+  <circle cx="430" cy="330" r="92" fill="#6a60da" opacity=".16"/>
+  <circle cx="600" cy="302" r="112" fill="#3f8f8c" opacity=".18"/>
+  <circle cx="770" cy="330" r="92" fill="#d06b5c" opacity=".16"/>
+  <path d="M290 565c72-114 172-171 300-171s229 57 320 171" fill="none" stroke="#6a60da" stroke-width="22" stroke-linecap="round"/>
+  <text x="600" y="645" text-anchor="middle" font-family="Arial, sans-serif" font-size="46" font-weight="700" fill="#343a40">Add N2Women Event Photo</text>
+</svg>
